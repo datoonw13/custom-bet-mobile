@@ -1,10 +1,11 @@
 import React from 'react';
-import {Text} from 'react-native';
-
+import {Button, ThemeProvider} from 'react-native-elements';
 const LoginScreen = () => {
   return (
     <>
-      <Text>Login</Text>
+      <ThemeProvider>
+        <Button title="Hey!" />
+      </ThemeProvider>
     </>
   );
 };
